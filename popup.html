@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Video Downloader</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      width: 300px;
+      padding: 15px;
+    }
+    input, button {
+      width: 100%;
+      margin-top: 10px;
+      padding: 8px;
+      box-sizing: border-box;
+    }
+    #status {
+      margin-top: 10px;
+      font-size: 14px;
+    }
+  </style>
+</head>
+<body>
+  <h3>Download Video</h3>
+  <input type="text" id="videoUrl" placeholder="Paste direct video link here">
+  <button id="downloadBtn">Download</button>
+  <div id="status"></div>
+
+  <script src="popup.js"></script>
+</body>
+</html>
